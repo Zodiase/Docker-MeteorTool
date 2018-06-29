@@ -1,3 +1,8 @@
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/zodiase/meteor-tool.svg)](https://hub.docker.com/r/zodiase/meteor-tool/)
+[![Docker Automated build](https://img.shields.io/docker/automated/zodiase/meteor-tool.svg)](https://hub.docker.com/r/zodiase/meteor-tool/)
+
+
 This image comes with Meteor pre-installed, so I don't have to waste time waiting for `curl "https://install.meteor.com/" | sh` to finish every time I build the Docker image for my Meteor app.
 
 Since this image is intended to be used as a build stage in a [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/) and nothing else, size is not a major concern and the base image is Ubuntu LTS for maximum adaptability.
